@@ -40,11 +40,11 @@ The dataset can be found at Kaggle: Brain Tumor MRI Dataset (https://www.kaggle.
 The model is a Convolutional Neural Network (CNN) consisting of multiple convolutional and pooling layers followed by fully connected layers. Batch normalization and dropout are used to improve training stability and prevent overfitting.
 
 **Layers:**
-1. Convolutional Layers: Extract features from the images using filters.
-2. MaxPooling Layers: Reduce the spatial dimensions of the feature maps.
-3. BatchNormalization: Normalize activations to improve convergence.
-4. Dropout: Randomly drop units to prevent overfitting.
-5. Fully Connected Layers: Perform the classification task.
+- Convolutional Layers: Extract features from the images using filters.
+- MaxPooling Layers: Reduce the spatial dimensions of the feature maps.
+- BatchNormalization: Normalize activations to improve convergence.
+- Dropout: Randomly drop units to prevent overfitting.
+- Fully Connected Layers: Perform the classification task.
 
 **Model Summary:**
 1. Input: 128x128 grayscale images
