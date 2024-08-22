@@ -47,16 +47,16 @@ The model is a Convolutional Neural Network (CNN) consisting of multiple convolu
 - Fully Connected Layers: Perform the classification task.
 
 **Model Summary:**
-1. Input: 128x128 grayscale images
-2. Output: Softmax activated layer with 2 output classes
+- Input: 128x128 grayscale images
+- Output: Softmax activated layer with 2 output classes
 
 ## Training
 The model is trained on the training dataset with data augmentation techniques to increase the diversity of the training data. The training is carried out for 30 epochs with a dynamic learning rate adjustment using the LearningRateScheduler.
 
 ## Training Procedure:
-1. Data Augmentation: Rotation, zoom, width/height shift, shear, and horizontal flip.
-2. Optimizer: Adam optimizer with an initial learning rate of 0.001.
-3. Loss Function: Sparse Categorical Crossentropy.
+- Data Augmentation: Rotation, zoom, width/height shift, shear, and horizontal flip.
+- Optimizer: Adam optimizer with an initial learning rate of 0.001.
+- Loss Function: Sparse Categorical Crossentropy.
 
 ## Run the Training:
 To train the model, use:
