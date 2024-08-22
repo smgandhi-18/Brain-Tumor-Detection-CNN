@@ -79,3 +79,6 @@ python evaluate.py
 
 ## Results
 The trained model achieves an accuracy of approximately XX% on the test dataset. The confusion matrix and classification report provide detailed performance metrics. The ROC curve and AUC score further highlight the model's ability to distinguish between the two classes.
+
+## License
+This project is licensed under the Apache License 2.0.
