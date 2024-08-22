@@ -1,6 +1,3 @@
-# Brain-Tumor-Detection-CNN
-A Convolutional Neural Network (CNN) for detecting brain tumors from MRI images.
-
 # Brain Tumor Detection Using Convolutional Neural Networks
 
 ## Table of Contents
