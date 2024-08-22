@@ -20,12 +20,17 @@ To get started with this project, you need to have Python 3.x installed on your 
 ```bash
 git clone https://github.com/yourusername/brain-tumor-detection.git
 cd brain-tumor-detection
+```
 
 Dependencies:
-TensorFlow
-NumPy
-OpenCV
-Matplotlib
-Scikit-learn
+1. TensorFlow
+2. NumPy
+3. OpenCV
+4. Matplotlib
+5. Scikit-learn
 Make sure you have a CUDA-compatible GPU if you intend to train the model on GPU.
 
+## Datasets
+The dataset used in this project consists of brain MRI images categorized into two classes: "no tumor" and "tumor". The images are preprocessed into grayscale and resized to 128x128 pixels to reduce computational complexity while retaining essential features.
+
+The dataset can be found at Kaggle: Brain Tumor MRI Dataset (https://www.kaggle.com/datasets/luluw8071/brain-tumor-mri-datasets). Download and extract it to the datasets/ directory in the project folder.
