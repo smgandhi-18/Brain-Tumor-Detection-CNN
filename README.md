@@ -20,3 +20,12 @@ To get started with this project, you need to have Python 3.x installed on your 
 ```bash
 git clone https://github.com/yourusername/brain-tumor-detection.git
 cd brain-tumor-detection
+
+Dependencies:
+TensorFlow
+NumPy
+OpenCV
+Matplotlib
+Scikit-learn
+Make sure you have a CUDA-compatible GPU if you intend to train the model on GPU.
+
